@@ -39,18 +39,113 @@
 
 <h1>Specific Aims</h1>
 
-<p>
-A central challenge in neuroscience is understanding how cells in the human brain respond to diverse perturbations that alter cellular state and function.
-</p>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Specific Aims</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 48px 24px;
+      line-height: 1.6;
+      color: #111;
+      background: #fff;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 1.8rem;
+      margin-bottom: 0.4rem;
+    }
+    p {
+      margin: 0 0 1rem 0;
+    }
+    .card {
+      margin-top: 2rem;
+      padding: 24px;
+      border: 1px solid #ddd;
+      border-radius: 16px;
+      background: #fafafa;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 12px 18px;
+      border-radius: 999px;
+      background: #111;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .small {
+      font-size: 0.92rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Specific Aims</h1>
 
-<p>
-This project integrates GTEx and LINCS to uncover how baseline gene regulation shapes cellular responses to perturbations.
-</p>
+  <p>
+    A central challenge in neuroscience is understanding how cells in the human brain respond to diverse perturbations that alter cellular state and function. These responses underlie processes such as synaptic activity, cellular communication, and adaptation to environmental and pharmacologic inputs, yet they vary widely across contexts. A key unanswered question is how baseline gene regulatory states shape the magnitude and direction of these responses. The NIH Common Fund has generated two complementary resources to address this gap. The Genotype-Tissue Expression (GTEx) Project defines baseline gene expression and genetic regulation across human tissues, including multiple brain regions. In parallel, the Library of Integrated Network-Based Cellular Signatures (LINCS) program profiles how human cells respond to diverse perturbations, generating high-dimensional molecular signatures of cellular state changes. However, these responses are typically interpreted without reference to the underlying gene regulatory landscapes that define cellular identity, limiting our ability to understand how intrinsic molecular states influence response behavior.
+  </p>
+
+  <p>
+    The objective of this project is to develop an integrative computational framework that connects GTEx-derived brain gene regulatory states with LINCS perturbational signatures to uncover gene programs that determine cellular response behavior. The central hypothesis is that baseline gene regulatory states in human brain tissues reflect underlying regulatory programs that determine the magnitude and direction of cellular responses to perturbations.
+  </p>
+
+  <h2>Aim 1</h2>
+  <p>
+    We will develop an integrative framework linking baseline gene regulation in human brain tissues to perturbational response signatures by deriving GTEx-based regulatory features, including tissue-specific expression and eQTL-informed regulation, mapping these features to LINCS transcriptomic and proteomic signatures, and constructing a shared representation that captures relationships between baseline gene states and perturbation-induced responses.
+  </p>
+
+  <h2>Aim 2</h2>
+  <p>
+    We will identify gene programs that determine responses to perturbations relevant to brain function by analyzing LINCS perturbations including neuroactive small molecules, signaling ligands, and genetic perturbations, and using the integrative framework to identify GTEx-derived gene sets whose baseline patterns predict response magnitude and direction, followed by network-based analyses to define programs associated with signaling, synaptic and excitability pathways, and broader cellular state transitions.
+  </p>
+
+  <h2>Aim 3</h2>
+  <p>
+    We will develop predictive models of perturbation responses from baseline gene regulation by training machine learning models using GTEx-derived features to predict LINCS signatures, incorporating perturbation context, evaluating performance across perturbation classes, and identifying key regulatory features driving variability in response behavior while generating user-accessible workflows.
+  </p>
+
+  <h2>Innovation</h2>
+  <p>
+    This project establishes a new paradigm linking steady-state gene regulation in human tissues to dynamic cellular responses, bridging a key gap in functional genomics. By connecting tissue-level regulatory landscapes with perturbational response atlases, this work enables cross-scale inference of cellular behavior and introduces predictive models that move beyond descriptive analysis. The framework is generalizable and will enhance the accessibility and interoperability of Common Fund datasets.
+  </p>
+
+  <h2>Impact</h2>
+  <p>
+    This project will generate integrative tools and biological insights defining how gene regulatory states shape cellular responses in the human brain, providing a foundation for predicting cellular behavior, advancing understanding of brain function and disease, and increasing the utility of Common Fund data resources.
+  </p>
+
+  <div class="card">
+    <h2>Interactive Game</h2>
+    <p class="small">
+      Explore how GTEx and LINCS are complementary in an interactive Base44 game.
+    </p>
+    <a class="button" href="PASTE_YOUR_BASE44_URL_HERE" target="_blank" rel="noopener noreferrer">
+      Launch the game
+    </a>
+  </div>
+
+  <!--
+  LLM Statement: ChatGPT was used to help write this specific aims page to help refine the conceptual framing of the integrated datasets in the background section and structure the aims in the correct format.
+  -->
+</body>
+</html>
 
 <div class="card">
   <h2>Interactive Game</h2>
   <p>Explore how GTEx and LINCS are complementary in an interactive Base44 game.</p>
-  <a class="button" href="PASTE_YOUR_BASE44_URL_HERE" target="_blank">
+  <a class="button" href="https://nexus-science-hub.base44.app/" target="_blank">
     Launch the game
   </a>
 </div>
